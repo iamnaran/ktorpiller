@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ktorpiller"
 include(":app")
- 
+include(":core")

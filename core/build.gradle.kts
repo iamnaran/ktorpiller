@@ -1,0 +1,15 @@
+plugins {
+    id("com.android.library")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "com.delphiclab.core"
+}
+
+apply<AppPluginManager>()
+
+dependencies {
+    ktxCore()
+    jUnitTest()
+}
