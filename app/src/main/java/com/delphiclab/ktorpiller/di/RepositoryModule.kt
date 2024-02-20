@@ -1,7 +1,7 @@
 package com.delphiclab.ktorpiller.di
 
-import com.iamnaran.beetle.presentation.data.repo.AuthRepository
-import com.iamnaran.beetle.presentation.data.repo.AuthRepositoryImpl
+import com.delphiclab.ktorpiller.data.repo.AuthRepository
+import com.delphiclab.ktorpiller.data.repo.AuthRepositoryImpl
 import com.iamnaran.beetle.presentation.data.repo.HomeRepository
 import com.iamnaran.beetle.presentation.data.repo.HomeRepositoryImpl
 import org.koin.dsl.module

@@ -1,8 +1,8 @@
-package com.iamnaran.beetle.presentation.data.repo
+package com.delphiclab.ktorpiller.data.repo
 
 import com.delphiclab.ktorpiller.data.model.User
 import com.delphiclab.ktorpiller.data.remote.api.AuthApiService
-import com.iamnaran.beetle.presentation.utils.ApiResponse
+import com.delphiclab.ktorpiller.utils.ApiResponse
 import kotlinx.coroutines.flow.Flow
 
 interface AuthRepository {

@@ -2,7 +2,7 @@ import org.gradle.api.artifacts.dsl.DependencyHandler
 
 object Dependencies {
 
-    const val kotlinCompilerExtensionVersion = "1.4.0"
+    const val kotlinCompilerExtensionVersion = "1.5.9"
 
     /* ktx Core Dependencies*/
     private const val ktxCoreVersion = "1.12.0"

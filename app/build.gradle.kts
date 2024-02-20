@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
@@ -40,7 +41,9 @@ android {
         compose = true
     }
     composeOptions {
+
         kotlinCompilerExtensionVersion = Dependencies.kotlinCompilerExtensionVersion
+
     }
     packaging {
         resources {

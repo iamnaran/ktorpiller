@@ -3,7 +3,7 @@ package com.delphiclab.ktorpiller.presentation.main
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.delphiclab.ktorpiller.utils.AppLog
-import com.iamnaran.beetle.presentation.data.repo.AuthRepository
+import com.delphiclab.ktorpiller.data.repo.AuthRepository
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch

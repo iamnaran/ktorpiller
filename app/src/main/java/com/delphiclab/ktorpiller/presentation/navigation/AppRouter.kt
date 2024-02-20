@@ -1,4 +1,4 @@
-package com.iamnaran.beetle.presentation.ui.navigation
+package com.delphiclab.ktorpiller.presentation.navigation
 
 import androidx.navigation.NamedNavArgument
 import androidx.navigation.NavType
